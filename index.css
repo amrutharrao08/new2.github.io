@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: chocolate;
+}
+
+p.content {
+  margin: 90px;
+  font-size: 20px;
+}
+
+.car {
+  background-color: palevioletred;
+  width: 800px;
+  height: 80px;
+  text-align: center;
+  display: block;
+  margin: 15px auto;
+}
+
+.cat {
+  width: 150px;
+  text-align: center;
+  height: auto;
+  display: block;
+  margin-left: 100px;
+ 
+  float: left;
+  padding-left: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  height: 250px;
+  border: 0.5px solid;
+  background-image: url(1.jpg);
+  display: flex;
+  flex-direction: row;
+}
+
+.A {
+  color: rgb(230, 31, 237);
+  font-size: 22px;
+  font-style: normal; /* "unset" is not a valid value for font-style */
+}
+
+body {
+  background-color: blue; /* Remove the quotes around the color value */
+}
+
+.bat {
+  margin-top: 25px;
+  font-size: 60px;
+  font-style: normal;
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+  font-style: normal; /* "unset" is not a valid value for font-style */
+  font-size: 45px;
+}
+
+h2 {
+  color: #a200ffee;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+  width: 75%;
+  margin-left: center; /* Use a specific width value or "auto" if you want the table to adjust based on content */
+}
+
+th,
+td {
+  border: 2px solid #ccc;
+  padding: 8px; /* Use a colon ":" instead of an equals "=" */
+}
+
+td {
+  background-color: rgb(209, 127, 189);
+}
+
+ul{
+  list-style: square;
+}
+
